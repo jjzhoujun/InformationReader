@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--GroupItemView组合控件属性-->
+    <declare-styleable name="GroupItemView">
+        <attr name="mainIcon" format="reference"/>
+        <attr name="extendIcon" format="reference"/>
+        <attr name="text" format="string"/>
+        <attr name="extendText" format="string"/>
+        <attr name="topBorder" format="dimension"/>
+        <attr name="bottomBorder" format="dimension"/>
+        <attr name="borderColor" format="reference|color"/>
+        <attr name="textColor" format="reference"/>
+        <attr name="extendTextColor" format="reference"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="extendTextSize" format="dimension"/>
+        <attr name="iconMargin" format="dimension"/>
+        <attr name="extendIconMargin" format="dimension"/>
+        <attr name="textMargin" format="dimension"/>
+        <attr name="extendTextMargin" format="dimension"/>
+        <attr name="mainIconSize" format="dimension"/>
+        <attr name="extendIconSize" format="dimension"/>
+        <attr name="topBorderStartFromText" format="boolean"/>
+        <attr name="bottomBorderStartFromText" format="boolean"/>
+        <attr name="vertical" format="boolean"/>
+    </declare-styleable>
+
+
+</resources>

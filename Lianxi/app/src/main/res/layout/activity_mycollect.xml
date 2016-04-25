@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyCollectActivity">
+
+    <include layout="@layout/include_toolbar"
+        android:id="@+id/my_collect_tool"/>
+
+    <FrameLayout
+        android:id="@+id/my_collect_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/recyclerview" />
+    </FrameLayout>
+
+
+</LinearLayout>

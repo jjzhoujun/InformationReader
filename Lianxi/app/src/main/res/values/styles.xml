@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- actionbar背景色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏：状态栏的颜色要暗-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--最底部的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--tab标题的样式-->
+    <style name="TabText" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!--修改toolbar的主题样式-->
+    <style name="AppToolbarTheme" parent="AppTheme">
+
+    </style>
+
+    <!--设置字体大小主题-->
+    <style name="SettingTextSize" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/dimen_5</item>
+        <item name="android:layout_margin">@dimen/dimen_10</item>
+        <item name="android:background">@drawable/set_txt_size_bg</item>
+        <item name="android:textSize">@dimen/setting_txt_size_title</item>
+    </style>
+
+    <!--通用条状菜单样式-->
+    <style name="commonBarMenu">
+        <item name="android:background">@color/commonDivBgWhite</item>
+        <item name="textSize">@dimen/common_content_text</item>
+        <item name="textColor">@color/set_common_txt_title</item>
+        <item name="extendTextColor">@color/set_common_extend_txt_title</item>
+        <item name="textMargin">@dimen/common_icon_text_margin</item>
+        <item name="extendIcon">@mipmap/list_arrow_gray</item>
+        <item name="iconMargin">@dimen/common_icon_text_margin</item>
+        <item name="mainIconSize">@dimen/common_text_icon_size</item>
+        <item name="extendTextSize">@dimen/common_extend_text</item>
+        <item name="extendIconMargin">@dimen/common_icon_text_margin</item>
+        <item name="extendTextMargin">@dimen/common_icon_text_margin</item>
+    </style>
+</resources>

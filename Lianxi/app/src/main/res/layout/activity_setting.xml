@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhimu.news.SettingActivity">
+
+    <include
+        android:id="@+id/include_setting_tool"
+        layout="@layout/include_toolbar" />
+
+    <include layout="@layout/include_set_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_setting_tool" />
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/include_setting_tool">-->
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/set_relative"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_marginTop="@dimen/dimen_20"-->
+                <!--android:background="#FEFEFE"-->
+                <!--android:layout_height="50dp">-->
+
+                <!--<android.support.v7.widget.SwitchCompat-->
+                    <!--android:id="@+id/set_update_notify_switch"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:checked="true"-->
+                    <!--android:textOff="关"-->
+                    <!--android:textOn="开"-->
+                    <!--app:showText="true"-->
+                    <!--android:layout_marginEnd="@dimen/dimen_10"-->
+                    <!--android:layout_marginRight="@dimen/dimen_10" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textColor="#111111"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_marginLeft="@dimen/dimen_10"-->
+                    <!--android:layout_marginStart="@dimen/dimen_10"-->
+                    <!--android:text="@string/set_update_notify_title"-->
+                    <!--android:textSize="@dimen/set_update_notify_title_size" />-->
+
+            <!--</RelativeLayout>-->
+
+            <!--<com.zhimu.news.view.GroupItemView-->
+                <!--android:id="@+id/set_check_version"-->
+                <!--style="@style/commonBarMenu"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_below="@+id/set_relative"-->
+                <!--app:topBorder="0.5dp"-->
+                <!--app:bottomBorder="0.5dp"-->
+                <!--app:bottomBorderStartFromText="true"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--app:extendText="@string/set_check"-->
+                <!--app:text="@string/set_check_version_title" />-->
+
+            <!--<com.zhimu.news.view.GroupItemView-->
+                <!--android:id="@+id/set_text_size"-->
+                <!--style="@style/commonBarMenu"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--app:bottomBorder="0.5dp"-->
+                <!--android:layout_below="@+id/set_check_version"-->
+                <!--app:extendText="@string/set_text_size_normal"-->
+                <!--app:text="@string/set_text_size_title" />-->
+
+            <!--<com.zhimu.news.view.GroupItemView-->
+                <!--android:id="@+id/set_my_img"-->
+                <!--style="@style/commonBarMenu"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--app:topBorder="0.5dp"-->
+                <!--app:bottomBorder="0.5dp"-->
+                <!--app:bottomBorderStartFromText="true"-->
+                <!--android:layout_below="@+id/set_text_size"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--app:extendText="@string/set_delete_all"-->
+                <!--app:text="@string/set_my_img_title" />-->
+
+            <!--<com.zhimu.news.view.GroupItemView-->
+                <!--android:id="@+id/set_my_collect"-->
+                <!--style="@style/commonBarMenu"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--app:bottomBorder="0.5dp"-->
+                <!--app:bottomBorderStartFromText="true"-->
+                <!--android:layout_below="@+id/set_my_img"-->
+                <!--app:extendText="@string/set_delete_all"-->
+                <!--app:text="@string/set_my_collect_title" />-->
+
+            <!--<com.zhimu.news.view.GroupItemView-->
+                <!--android:id="@+id/set_cache_data"-->
+                <!--style="@style/commonBarMenu"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--app:bottomBorder="0.5dp"-->
+                <!--android:layout_below="@+id/set_my_collect"-->
+                <!--app:extendText="@string/set_delete_all"-->
+                <!--app:text="@string/set_cache_img" />-->
+
+            <!--<com.zhimu.news.view.GroupItemView-->
+                <!--android:id="@+id/set_my_integrate"-->
+                <!--style="@style/commonBarMenu"-->
+                <!--app:bottomBorder="0.5dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_below="@+id/set_cache_data"-->
+                <!--app:text="@string/set_my_integrate" />-->
+
+            <!--<com.zhimu.news.view.GroupItemView-->
+                <!--android:id="@+id/set_feed"-->
+                <!--style="@style/commonBarMenu"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--app:topBorder="0.5dp"-->
+                <!--app:bottomBorderStartFromText="true"-->
+                <!--app:bottomBorder="0.5dp"-->
+                <!--android:layout_below="@+id/set_my_integrate"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--app:text="@string/set_feed_title" />-->
+
+            <!--<com.zhimu.news.view.GroupItemView-->
+                <!--android:id="@+id/set_help"-->
+                <!--style="@style/commonBarMenu"-->
+                <!--app:bottomBorder="0.5dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_below="@+id/set_feed"-->
+                <!--app:text="@string/set_help" />-->
+        <!--</RelativeLayout>-->
+
+    <!--</ScrollView>-->
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_subscribe"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/channel_id_layout_height_40"
+    android:minWidth="@dimen/channel_id_layout_width_80" >
+
+    <TextView
+        android:id="@+id/text_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/channel_item_text"
+        android:background="@drawable/channel_item_bg"
+        android:layout_margin="@dimen/dimen_5"
+        android:minHeight="@dimen/channel_id_item_height_30"
+        android:minWidth="@dimen/channel_id_item_width_70"
+        android:textColor="@color/colorChannelCompileText"
+        android:textSize="@dimen/channel_item_12" />
+
+    <ImageView
+        android:id="@+id/iv_channel_delete"
+        android:layout_width="@dimen/dimen_16"
+        android:layout_height="@dimen/dimen_16"
+        android:visibility="gone"
+        android:contentDescription="@string/channel_item_delete"
+        android:src="@mipmap/delete"
+        android:layout_gravity="end|top" />
+
+</FrameLayout>

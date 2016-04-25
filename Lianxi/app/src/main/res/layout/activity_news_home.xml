@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    tools:context="com.zhimu.news.TabHomeActivity">
+
+    <include layout="@layout/include_toolbar"
+        android:id="@+id/include_tab_toolbar"/>
+
+    <include layout="@layout/content_tab_home"
+        android:id="@+id/include_content"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_tab_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/stat_notify_sync_noanim"
+        android:visibility="gone" />
+
+</android.support.design.widget.CoordinatorLayout>

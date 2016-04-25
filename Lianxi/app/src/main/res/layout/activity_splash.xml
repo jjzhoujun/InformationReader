@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_ad_splash">
+
+    <RelativeLayout
+        android:id="@+id/relative_ad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/splash_version_txt">
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:background="@drawable/ad_time_textview_corner"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/dimen_30"
+        android:layout_marginRight="@dimen/dimen_30"
+        android:layout_marginTop="@dimen/dimen_30"
+        android:textColor="@color/colorSplashText"
+        android:textSize="@dimen/splash_date_12" />
+
+
+    <TextView
+        android:id="@+id/splash_version_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10"
+        android:drawableTop="@mipmap/icon"
+        android:drawablePadding="@dimen/dimen_10"
+        android:textColor="@color/splash_version_txt"
+        android:textSize="@dimen/splash_txt"
+        android:text="@string/splash_version_txt_desc"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

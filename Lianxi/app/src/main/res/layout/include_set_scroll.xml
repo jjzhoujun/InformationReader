@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/set_relative"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:background="@color/commonDivBgWhite">
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/set_update_notify_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dimen_10"
+                android:layout_marginRight="@dimen/dimen_10"
+                android:checked="true"
+                android:textOff="关"
+                android:textOn="开"
+                app:showText="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:layout_marginStart="@dimen/dimen_10"
+                android:text="@string/set_update_notify_title"
+                android:textColor="@color/set_common_txt_title"
+                android:textSize="@dimen/set_update_notify_title_size" />
+
+        </RelativeLayout>
+
+        <com.zhimu.news.view.GroupItemView
+            android:id="@+id/set_check_version"
+            style="@style/commonBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/set_relative"
+            android:layout_marginTop="20dp"
+            app:bottomBorder="0.5dp"
+            app:bottomBorderStartFromText="true"
+            app:extendText="@string/set_check"
+            app:text="@string/set_check_version_title"
+            app:topBorder="0.5dp" />
+
+        <com.zhimu.news.view.GroupItemView
+            android:id="@+id/set_text_size"
+            style="@style/commonBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/set_check_version"
+            app:bottomBorder="0.5dp"
+            app:extendText="@string/set_text_size_normal"
+            app:text="@string/set_text_size_title" />
+
+        <com.zhimu.news.view.GroupItemView
+            android:id="@+id/set_my_img"
+            style="@style/commonBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/set_text_size"
+            android:layout_marginTop="20dp"
+            app:bottomBorder="0.5dp"
+            app:bottomBorderStartFromText="true"
+            app:extendText="@string/set_delete_all"
+            app:text="@string/set_my_img_title"
+            app:topBorder="0.5dp" />
+
+        <com.zhimu.news.view.GroupItemView
+            android:id="@+id/set_my_collect"
+            style="@style/commonBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/set_my_img"
+            app:bottomBorder="0.5dp"
+            app:bottomBorderStartFromText="true"
+            app:extendText="@string/set_delete_all"
+            app:text="@string/set_my_collect_title" />
+
+        <com.zhimu.news.view.GroupItemView
+            android:id="@+id/set_cache_data"
+            style="@style/commonBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/set_my_collect"
+            app:bottomBorder="0.5dp"
+            app:extendText="@string/set_delete_all"
+            app:text="@string/set_cache_img" />
+
+        <com.zhimu.news.view.GroupItemView
+            android:id="@+id/set_my_integrate"
+            style="@style/commonBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/set_cache_data"
+            android:layout_marginTop="20dp"
+            app:bottomBorder="0.5dp"
+            app:text="@string/set_my_integrate"
+            app:topBorder="0.5dp" />
+
+        <com.zhimu.news.view.GroupItemView
+            android:id="@+id/set_feed"
+            style="@style/commonBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/set_my_integrate"
+            android:layout_marginTop="20dp"
+            app:bottomBorder="0.5dp"
+            app:bottomBorderStartFromText="true"
+            app:text="@string/set_feed_title"
+            app:topBorder="0.5dp" />
+
+        <com.zhimu.news.view.GroupItemView
+            android:id="@+id/set_help"
+            style="@style/commonBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/set_feed"
+            app:bottomBorder="0.5dp"
+            app:text="@string/set_help" />
+    </RelativeLayout>
+
+</ScrollView>

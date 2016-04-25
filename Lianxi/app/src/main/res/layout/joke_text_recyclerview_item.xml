@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--padding值左右在receylerview中设置了-->
+    <TextView
+        android:id="@+id/tv_joke_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="@dimen/dimen_10"
+        android:text="@string/joke_item_title"
+        android:textColor="@color/colorJokeTitle"
+        android:textSize="@dimen/news_joke_item_title_20" />
+
+    <TextView
+        android:id="@+id/tv_joke_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_joke_text_title"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:layout_marginRight="@dimen/dimen_10"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:layout_marginBottom="@dimen/dimen_5"
+        android:text="@string/joke_item_content"
+        android:textColor="@color/colorJokeContent"
+        android:textSize="@dimen/news_content_16" />
+
+    <TextView
+        android:id="@+id/tv_joke_text_ct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_joke_text_content"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:layout_marginRight="@dimen/dimen_10"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:paddingBottom="@dimen/dimen_10"
+        android:text="@string/joke_item_date"
+        android:textColor="#66000000"
+        android:textSize="@dimen/news_source_date_12" />
+
+
+</RelativeLayout>

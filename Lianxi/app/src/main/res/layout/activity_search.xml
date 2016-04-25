@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhimu.news.SearchActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/search_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <!--android:imeOptions="actionSearch"表示回车键是搜索-->
+            <EditText
+                android:id="@+id/search_news"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:imeOptions="actionSearch"
+                android:layout_weight="1.31"
+                android:background="@null"
+                android:hint="@string/search_hint_text"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="@dimen/news_content_16">
+
+            </EditText>
+
+            <ImageView
+                android:id="@+id/toolbar_delete_image"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end|center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:src="@mipmap/delete"
+                android:contentDescription="@string/search_image"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/search_toolbar_image"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_gravity="end|center"
+            android:layout_marginEnd="@dimen/dimen_10"
+            android:layout_marginRight="@dimen/dimen_10"
+            android:background="@drawable/search_img_selector"
+            android:contentDescription="@string/search_text" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/search_swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/recyclerview" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

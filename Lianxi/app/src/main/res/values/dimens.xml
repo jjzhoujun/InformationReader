@@ -1,0 +1,105 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--recyclerview分隔线-->
+    <dimen name="recyclerview_divider">0.2dp</dimen>
+    <dimen name="dimen_tabIndicatorHeight_2">2dp</dimen>
+
+    <!--距离边界-->
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_18">18dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_23">23dp</dimen>
+    <dimen name="dimen_25">25dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <dimen name="dimen_60">60dp</dimen>
+    <dimen name="dimen_70">70dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+    <dimen name="dimen_120">120dp</dimen>
+    <dimen name="dimen_200">200dp</dimen>
+    <dimen name="dimen_item_image_height_240">240dp</dimen>
+    <dimen name="dimen_250">250dp</dimen>
+    <dimen name="dimen_400">400dp</dimen>
+
+    <dimen name="news_more_scroll_height">240dp</dimen>
+
+    <!--toolbar、tab高度-->
+    <dimen name="toolbar_tab_height_40">40dp</dimen>
+
+    <!--侧边栏第一个图片的大小-->
+    <dimen name="slidingmenu_head_image_80">80dp</dimen>
+
+    <!--频道管理界面:布局大小-->
+    <dimen name="channel_id_layout_height_40">40dp</dimen>
+    <dimen name="channel_id_layout_width_80">80dp</dimen>
+    <!--频道管理界面:item大小-->
+    <dimen name="channel_id_item_height_30">30dp</dimen>
+    <dimen name="channel_id_item_width_70">70dp</dimen>
+    <!--频道管理界面：编辑框圆角-->
+    <dimen name="compile_txt_corner">600dp</dimen>
+    <!--频道管理界面：编辑框边框宽度-->
+    <dimen name="compile_txt_frame">1dp</dimen>
+
+    <!--新闻详情页标题文字大小-->
+    <!--<dimen name="news_title_22">22sp</dimen>-->
+    <!--新闻和笑话item标题文字大小-->
+    <dimen name="news_joke_item_title_20">20sp</dimen>
+    <!--新闻详情页新闻内容文字大小-->
+    <dimen name="news_content_16">16sp</dimen>
+    <!--新闻和笑话item描述文字大小-->
+    <dimen name="news_item_desc_14">14sp</dimen>
+    <!--点击查看原网页文字大小-->
+    <dimen name="news_web_click_14">14sp</dimen>
+    <!--新闻item和详情页来源、日期显示文字大小-->
+    <dimen name="news_source_date_12">12sp</dimen>
+
+    <!--侧边栏头文字大小-->
+    <dimen name="slidingmenu_head_text_16">16sp</dimen>
+
+    <!--闪屏页时间显示文字大小-->
+    <dimen name="splash_date_12">12sp</dimen>
+    <dimen name="splash_txt">14sp</dimen>
+
+    <!--设置字体大小标题-->
+    <dimen name="setting_txt_size_title">20sp</dimen>
+    <dimen name="setting_txt_size_desc">14sp</dimen>
+
+    <!--频道管理界面文字大小-->
+    <dimen name="channel_title_16">16sp</dimen>
+    <dimen name="channel_item_12">12sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--spinner控件字体大小-->
+    <dimen name="spinner_txt">18sp</dimen>
+
+    <!--设置界面：-->
+    <dimen name="common_extend_text">14sp</dimen>
+    <dimen name="common_content_text">16sp</dimen>
+    <dimen name="common_icon_text_margin">10dp</dimen>
+    <dimen name="common_text_icon_size">24dp</dimen>
+
+    <!--更新通知-->
+    <dimen name="set_update_notify_title_size">16sp</dimen>
+
+    <!--fragment提示文字-->
+    <dimen name="my_img_fragment_txt">16sp</dimen>
+
+    <!--网络设置fragment-->
+    <dimen name="fragment_set_btn">16sp</dimen>
+    <dimen name="fragment_txt_set_net">14sp</dimen>
+    <dimen name="fragment_txt_set_net_margin">32dp</dimen>
+
+    <!--explain界面：-->
+    <dimen name="explain_txt">16sp</dimen>
+    <dimen name="explain_version_txt">14sp</dimen>
+    <dimen name="explain_more_app_txt">14sp</dimen>
+
+</resources>

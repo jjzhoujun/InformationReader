@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">掌中小报</string>
+
+    <!--新闻主页：网络文字-->
+    <string name="tab_home_add_img_desc">跳转到频道管理界面</string>
+    <string name="toolbar_title_text">标题</string>
+    <string name="tab_home_no_network_text">没有网络，点击设置</string>
+    <string name="tab_home_exit">再按一次退出</string>
+    <string name="txt_size_dialog_title">设置内容字体大小</string>
+    <string name="txt_size_dialog_desc">提示：选择大字体可能会出现排版错误</string>
+    <string name="txt_size_dialog_example">字体大小示例</string>
+    <string name="txt_size_dialog_normal">小</string>
+    <string name="txt_size_dialog_medium">中</string>
+    <string name="txt_size_dialog_large">大</string>
+    <string name="txt_size_dialog_pic_desc">图片描述</string>
+    <string name="dialog_set_net">设置网络</string>
+    <string name="dialog_set_net_message">网络不给力，立即去设置</string>
+    <string name="dialog_negative">取消</string>
+    <string name="dialog_positive">确定</string>
+    <string name="toast_gprs">当前网络是移动网络，请注意流量使用情况</string>
+    <string name="toast_wifi">当前网络是wifi</string>
+
+    <!--主页toolbar的menu-->
+    <string name="tab_home_menu_search">搜索</string>
+    <string name="tab_home_menu_mycollect">我的收藏</string>
+    <string name="tab_home_menu_picture">我的图片</string>
+    <string name="tab_home_menu_setting">设置</string>
+
+    <!--新闻界面：fragment标题-->
+    <string name="home_news_fragment_title">推荐</string>
+    <!--新闻界面：fragment弹出提示-->
+    <string name="news_fragment_toast_refresh">当前已是最新内容，请稍后刷新</string>
+    <string name="news_fragment_toast_error">加载数据出错啦</string>
+
+    <!--更多新闻：图片描述-->
+    <string name="news_more_image_desc">加载网络图片</string>
+    <string name="news_more_spinner_title">文字</string>
+    <string name="news_more_spinner_image">图片</string>
+    <string name="news_more_toast_img_fail">加载图片失败</string>
+
+    <!--新闻item预设置描述文字-->
+    <string name="news_item_desc">新闻描述内容</string>
+
+    <!--新闻设置标题文字-->
+    <string name="news_title">新闻标题</string>
+    <!--新闻欲设置来源文字-->
+    <string name="news_source">新闻来源</string>
+    <!--新闻欲设置内容文字-->
+    <string name="news_content">新闻描述</string>
+    <!--新闻图片描述-->
+    <string name="news_detailed_image_desc">加载新闻图片</string>
+    <!--新闻预设置日期-->
+    <string name="news_date">2016-02-23</string>
+    <!--点击查看原网页文字描述-->
+    <string name="news_click_web_source">—— 看的不过瘾，点击查看原网页 ——</string>
+
+    <!--网页界面：toolbar标题-->
+    <string name="news_web_tool_title">返回</string>
+    <!--网页界面：进度文字描述-->
+    <string name="news_web_progress_text">数据正在加载中...</string>
+    <string name="news_web_anim_progress_desc">网页界面动画图片</string>
+    <!--链接出错Toast-->
+    <string name="news_web_toast_error">连接出错啦</string>
+
+    <!--频道选择界面文字-->
+    <string name="channel_user">我的频道</string>
+    <string name="channel_user_desc">单击增删频道，长按拖拽排序</string>
+    <string name="channel_compile">编辑</string>
+    <string name="channel_compiled">完成</string>
+    <string name="channel_select">选择频道</string>
+    <!--频道界面子item预设文字-->
+    <string name="channel_item_text">推荐</string>
+    <!--删除图片描述-->
+    <string name="channel_item_delete">删除item的图片</string>
+    <string name="channel_tool_title">频道管理</string>
+
+    <!--笑话界面预设值标题-->
+    <string name="joke_item_title">笑话标题</string>
+    <string name="joke_image_desc">图片笑话</string>
+    <string name="joke_item_date">更新于2016-02-17</string>
+    <string name="joke_item_content">文本笑话内容</string>
+    <string name="joke_toast_error">加载数据出错啦</string>
+
+    <!--搜索界面:搜索框提示-->
+    <string name="search_hint_text">请输入关键字</string>
+    <string name="search_text">搜索</string>
+    <string name="search_image">删除</string>
+    <string name="search_toast_error">加载数据出错啦</string>
+    <string name="search_toast_search_title">搜索内容不能为空</string>
+
+    <!--新闻详情：toolbar设置标题-->
+    <string name="news_detailed_tool_title">返回</string>
+    <string name="news_detailed_source">  /  查看原文</string>
+    <!--新闻详情：Toast提示-->
+    <string name="news_detailed_toast_collect">不能重复收藏哦</string>
+    <string name="news_detailed_toast_collect_success">收藏成功</string>
+    <string name="news_toast_load_img_fail">加载图片失败</string>
+
+    <!--收藏menu-->
+    <string name="collect_text">收藏</string>
+
+    <!--我的图片item描述-->
+    <string name="my_image_dec">我的图片</string>
+
+    <!--我的收藏新闻详情页:来源-->
+    <string name="my_collect_detailed_tool_title">返回</string>
+    <string name="my_collect_detailed_source">   收藏于  </string>
+    <string name="my_collect_detailed_see">  /  查看原文</string>
+
+    <!--闪频页：底部图片描述-->
+    <string name="splash_version_txt_desc">爱生活，爱小报</string>
+    <string name="splash_version_txt_name">v 1.0</string>
+    <string name="splash_ad_txt_name">s广告</string>
+
+    <!--图片缩放界面:-->
+    <string name="zoom_image_tool_title">返回</string>
+    <string name="zoom_image_tool_sd">没有找到SD卡</string>
+
+    <!--图片笑话界面：-->
+    <string name="joke_img_toast">数据暂未更新</string>
+    <string name="joke_img_toast_refresh">当前已是最新数据，请稍后再试</string>
+    <string name="joke_img_toast_error">加载数据出错啦</string>
+    <string name="joke_img_source_desc">更新于  </string>
+
+    <!--文本笑话界面：-->
+    <string name="joke_text_toast">数据暂未更新</string>
+    <string name="joke_text_toast_refresh">当前已是最新数据，请稍后再试</string>
+    <string name="joke_text_toast_error">加载数据出错啦</string>
+
+    <!--设置界面：-->
+    <string name="set_title">设置</string>
+    <string name="set_switch_off">关</string>
+    <string name="set_switch_on">开</string>
+    <string name="set_update_notify_title">更新通知</string>
+    <string name="set_check_version_title">检查更新</string>
+    <string name="set_check">立即检查</string>
+    <string name="set_check_no_updated">未更新</string>
+    <string name="set_my_img_title">我的图片</string>
+    <string name="set_delete_all">清空</string>
+    <string name="set_my_collect_title">我的收藏</string>
+    <string name="set_text_size_title">字体大小</string>
+    <string name="set_text_size_normal">正常</string>
+    <string name="set_text_size_xiao">小</string>
+    <string name="set_text_size_zhong">中</string>
+    <string name="set_text_size_da">大</string>
+    <string name="set_text_size_negative">取消</string>
+    <string name="set_text_size_positive">确定</string>
+    <string name="set_my_integrate">我的积分</string>
+    <string name="set_see_my_integrate">当前用户积分为：</string>
+    <string name="set_spend_my_integrate">分，暂无礼品兑换，敬请期待！</string>
+    <string name="set_toast_my_integrate_error">获取积分失败</string>
+    <string name="set_feed_title">意见反馈</string>
+    <string name="set_help">关于掌中小报</string>
+    <!--没有新版本时，弹出提示-->
+    <string name="set_no_new_version">当前已是最新版本</string>
+    <string name="set_updated">更新</string>
+    <string name="set_positive_btn">确定</string>
+    <string name="set_version_message">版本信息</string>
+    <!--提示更新通知-->
+    <string name="set_switch_texton_toast">自动更新已开启</string>
+    <string name="set_switch_textoff_toast">自动更新已关闭</string>
+    <!--删除我的图片-->
+    <string name="set_delete_myimg_dialog_title">清空我的图片</string>
+    <string name="set_myimg_dialog_size">我的图片总大小</string>
+    <string name="set_delete_mycollect_dialog_title">清空我的收藏</string>
+    <!--数据缓存，主要是图片缓存-->
+    <string name="set_cache_img_title">清空缓存数据</string>
+    <string name="set_cache_img">缓存数据</string>
+    <string name="set_cache_data_size">缓存数据总大小</string>
+    <string name="set_delete_toast_success">删除成功</string>
+    <string name="set_delete_toast_fail">删除失败</string>
+    <string name="set_toast_no_find_sd">没有找到SD卡</string>
+    <string name="delete_positive">，确定全部删除吗？</string>
+    <!--我的收藏：写死20k-->
+    <string name="my_collect_dialog_title">我的收藏总大小包含但不仅限于</string>
+
+    <!--我的图片界面：toast提示-->
+    <string name="my_img_no_find_sd">没有找到SD卡</string>
+    <string name="my_img_title">我的图片</string>
+    <string name="my_img_toast_fail">图片加载失败啦</string>
+
+    <!--我的收藏界面：toast提示-->
+    <string name="my_collect_title">我的收藏</string>
+    <string name="my_collect_toast_success">删除成功</string>
+    <string name="my_collect_toast_fail">删除失败</string>
+
+    <!--空白fragment：-->
+    <string name="fragment_btn_txt">返回首页</string>
+    <string name="fragment_txt">哇，是空的，马上返回首页看看</string>
+
+    <!--没有网络fragment-->
+    <string name="fragment_no_net">哇，网络不给力，马上去设置</string>
+    <string name="fragment_btn">重新加载</string>
+    <string name="fragment_txt_set_net">设置网络</string>
+
+    <!--explain界面-->
+    <string name="explain_title">关于</string>
+    <string name="explain_version_txt">版本号：&#160;v&#160;</string>
+    <string name="explain_more_app">更多应用</string>
+    <string name="explain_txt">免责声明</string>
+
+    <!--图片下载-->
+    <string name="load_image_title">图片下载</string>
+    <string name="load_image_message">立即后台下载，保存到我的图片？</string>
+    <string name="load_image_negative">取消</string>
+    <string name="load_image_positive">确定</string>
+    <string name="load_image_no_sd">未找到到SD卡</string>
+    <string name="load_image_success">保存成功</string>
+    <string name="load_image_fail">保存失败</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--谷歌横幅广告测试id-->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <!--admob正式广告id：自己申请-->
+    <string name="banner_ad_admob_id">ca-app-pub-6423855049647725/9672083890</string>
+</resources>

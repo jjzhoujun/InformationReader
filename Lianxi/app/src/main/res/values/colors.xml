@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Toolbar的背景色和状态栏颜色-->
+    <color name="colorPrimary">#EE3333</color>
+    <color name="colorPrimaryDark">#FF6661</color>
+    <color name="colorAccent">#aaaaaa</color>
+
+    <!--闪屏界面：倒计时文字颜色-->
+    <color name="colorSplashText">#FFFFFF</color>
+    <!--闪频界面：底部文字颜色-->
+    <color name="splash_version_txt">#999999</color>
+
+    <!--反馈界面：底部文字颜色-->
+    <color name="feed_bar_bg">#EE3333</color>
+
+    <!--刷新控件颜色-->
+    <color name="colorSwipeRefresh1">#FF4061</color>
+    <color name="colorSwipeRefresh2">#FF5071</color>
+    <color name="colorSwipeRefresh3">#FF6081</color>
+    <color name="colorSwipeRefresh4">#FF7091</color>
+
+    <!--Toolbar标题颜色-->
+    <color name="colorToolbarTitle">#FFFFFF</color>
+
+    <!--广告界面TextView的背景色和字体颜色-->
+    <color name="colorAdTextViewBackground">#55888888</color>
+    <color name="colorAdText">#FFFFFF</color>
+
+    <!--tab标题栏背景色、字体颜色、选中后的字体颜色-->
+    <color name="colorTabBackground">#EE3333</color>
+    <color name="colorTabText">#b8b8b8</color>
+    <color name="colorTabSelectedText">#FFFFFF</color>
+
+    <!--首页界面没有网络布局提示背景色-->
+    <color name="colorTabHomeTextViewBackground">#BBBBBB</color>
+
+    <!--新闻主页标题颜色-->
+    <color name="colorTabHomeItemTitle">#cc000000</color>
+    <color name="colorTabHomeItemDesc">#99000000</color>
+
+    <!--新闻详情页标题字体颜色-->
+    <color name="colorNewsDetailedTitle">#333333</color>
+    <!--新闻详情页来源字体颜色-->
+    <color name="colorNewsDetailedSource">#66000000</color>
+    <!--新闻详情页来源字体颜色-->
+    <color name="colorNewsDetailedContent">#bb000000</color>
+
+    <!--点击查看原网页字体颜色-->
+    <color name="colorClickWebSourceText">#aa000000</color>
+
+    <!--更多新闻界面背景颜色-->
+    <color name="colorNewsMoreBackground">#000000</color>
+    <!--更多新闻界面文字颜色-->
+    <color name="colorNewsMoreTitle">#FFFFFF</color>
+    <color name="colorNewsMoreContent">#EEEEEE</color>
+    <!--记录图片个数-->
+    <color name="image_count">#FFFFFF</color>
+    <!--spinner标题颜色-->
+    <color name="spinner_title">#FFFFFF</color>
+
+    <!--网页新闻界面进度背景颜色-->
+    <color name="colorNewsLayoutProgress">#22000000</color>
+
+    <!--频道界面:标题文字颜色-->
+    <color name="colorChannelBackground">#fff5f5f5</color>
+    <!--频道界面:标题文字颜色-->
+    <color name="colorChannelTitle">#ff2e2e2e</color>
+    <!--频道界面:标题描述文字颜色-->
+    <color name="colorChannelTitleDesc">#88333333</color>
+    <color name="colorChannelCompileText">#88000000</color>
+    <!--频道界面:编辑框颜色-->
+    <color name="compile_txt_bg">#F8F8F8</color>
+
+    <!--笑话界面标题文字颜色-->
+    <color name="colorJokeTitle">#cc000000</color>
+    <!--笑话界面时间文字颜色-->
+    <color name="colorJokeDate">#66000000</color>
+    <color name="colorJokeContent">#99000000</color>
+    <color name="colorJokeItemDesc">#88000000</color>
+
+    <!--设置字体大小标题颜色-->
+    <color name="setting_txt_size">#555555</color>
+    <color name="setting_txt_size_desc">#999999</color>
+    <color name="setting_txt_bg">#FFD3D3D3</color>
+
+    <!--频道管理：item颜色-->
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_text_color_pressed">#ffb9b9b9</color>
+    <item name="subscribe_item_text_color_normal" type="color">@color/default_text</item>
+    <color name="default_text">#ff454545</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <!--频道管理第一个item的字体颜色-->
+    <color name="channel_item_txt">#FF0000</color>
+
+    <!--图片放大界面：背景色-->
+    <color name="zoom_img_bg">#000000</color>
+    <color name="zoom_tool_bg">#00000000</color>
+
+    <!--myIamgefragment字体颜色-->
+    <color name="btn_txt">#EE3333</color>
+    <color name="btn_txt_bg">#F8F8F8</color>
+    <color name="btn_press_bg">#DDDDDD</color>
+    <color name="btn_stroke_bg">#EE3333</color>
+
+    <!--搜索图标颜色-->
+    <color name="search_press_red">#EE3333</color>
+    <color name="search_white">#00000000</color>
+
+    <!--explain界面：字体颜色-->
+    <color name="explain_txt">#555555</color>
+    <color name="explain_version_txt">#555555</color>
+    <color name="explain_more_app_bg">#efefef</color>
+    <color name="explain_more_app_txt">#AAAAAA</color>
+    <!--explain界面：广告app标题-->
+    <color name="explain_ad_txt">#555555</color>
+
+    <!--网络设置fragment-->
+    <color name="fragment_set_net">#EE3333</color>
+    <color name="fragment_net_txt_gray">#999999</color>
+
+    <!--设置界面：-->
+    <color name="set_txt_title">#999999</color>
+    <!--组合控件设置颜色-->
+    <color name="commonDivBgWhite">#FEFEFE</color>
+    <color name="set_common_txt_title">#111111</color>
+    <color name="set_common_extend_txt_title">#888888</color>
+
+</resources>

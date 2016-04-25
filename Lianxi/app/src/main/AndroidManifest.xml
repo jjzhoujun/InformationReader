@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhimu.news" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取MAC地址 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 读写sdcard，storage等等 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 获取设备信息 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许程序录制音频 -->
+    <!-- 可选 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 获取logcat日志 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <data
+                    android:pathPrefix="/index.html"
+                    android:host="m.sdk.com"
+                    android:scheme="tbopen" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TabHomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewsWebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewsDetailedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewsMoreImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChannelIdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyCollectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewsCollectDetailedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".MyImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ZoomImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".NewsCollectMoreImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ExplainCopyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <!-- 有米广告配置 -->
+        <activity
+            android:name="ofs.ahd.dii.HH"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+
+        <service
+            android:name="ofs.ahd.dii.AA"
+            android:exported="false" />
+
+        <receiver android:name="ofs.ahd.dii.PP" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 有米：value非负整数的渠道号:查看有米渠道列表 -->
+        <!-- <meta-data -->
+        <!-- android:value="10440" -->
+        <!-- android:name="YOUMI_CHANNEL"/> -->
+
+        <!-- 友盟数据统计：YOUR_APP_KEY 替换为在友盟后台申请的应用Appkey,其他部分均不需改动 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5702548ae0f55afee3001b93" />
+        <!-- Channel ID 替换为应用的推广渠道名称 -->
+        <!-- 例如在豌豆荚渠道推广此包，代码示例： <meta-data android:value="Wandoujia" android:name="UMENG_CHANNEL"/> -->
+        <!-- 1.这里采用多渠道打包，动态变化，在gradle里配置 -->
+        <!-- <meta-data -->
+        <!-- android:value="${UMENG_CHANNEL_VALUE}" -->
+        <!-- android:name="UMENG_CHANNEL"/> -->
+
+        <!-- 蒲公英异常上传+自动更新+应用反馈SDK -->
+        <activity android:name="com.pgyersdk.activity.FeedbackActivity" />
+        <meta-data
+            android:name="PGYER_APPID"
+            android:value="a8c243712c57e6f20522710329114785" />
+
+        <!--谷歌服务-->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!--阿里百川-->
+        <meta-data android:name="com.alibaba.app.appkey" android:value="23337378"/>
+        <!--可选-->
+        <!--<meta-data android:name="com.alibaba.app.pid" android:value="xxxx"/>-->
+        <!--App间跳转-->
+        <meta-data android:name="com.alibaba.app.applink.backurl" android:value="com.zhimu.news.HOMEACTIVITY"/>
+    </application>
+
+</manifest>

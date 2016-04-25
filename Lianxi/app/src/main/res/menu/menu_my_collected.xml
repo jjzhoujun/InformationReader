@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zhimu.news.MainActivity">
+
+    <item android:id="@+id/action_my_collected"
+        android:title="@string/collect_text"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@mipmap/my_collected_yellow" />
+</menu>

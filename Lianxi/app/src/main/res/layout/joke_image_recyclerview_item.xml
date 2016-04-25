@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_joke_image_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/joke_item_title"
+        android:layout_margin="@dimen/dimen_10"
+        android:textSize="@dimen/news_joke_item_title_20"
+        android:textColor="@color/colorJokeTitle"/>
+
+    <ImageView
+        android:id="@+id/iv_image_joke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_big_bg"
+        android:layout_marginRight="@dimen/dimen_10"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:contentDescription="@string/joke_image_desc"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/tv_image_ct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/joke_item_date"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:layout_marginRight="@dimen/dimen_10"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:paddingBottom="@dimen/dimen_10"
+        android:textSize="@dimen/news_source_date_12"
+        android:textColor="@color/colorJokeDate" />
+</LinearLayout>

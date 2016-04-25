@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/include_toolbar"
+        android:id="@+id/include_channel_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_channel_toolbar">
+
+        <LinearLayout
+            android:id="@+id/subscribe_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorChannelBackground"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10">
+
+                <TextView
+                    android:id="@+id/my_category_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/channel_user"
+                    android:layout_marginLeft="@dimen/dimen_10"
+                    android:layout_marginStart="@dimen/dimen_10"
+                    android:textColor="@color/colorChannelTitle"
+                    android:textSize="@dimen/channel_title_16"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:id="@+id/tv_darg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/channel_user_desc"
+                    android:visibility="invisible"
+                    android:textColor="@color/colorChannelTitleDesc"
+                    android:textSize="@dimen/channel_item_12"
+                    android:layout_marginLeft="@dimen/dimen_10"
+                    android:layout_marginStart="@dimen/dimen_10"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/my_category_text"
+                    android:layout_toEndOf="@+id/my_category_text" />
+
+                <TextView
+                    android:id="@+id/tv_compile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/channel_compile"
+                    android:textColor="@color/colorChannelCompileText"
+                    android:background="@drawable/tv_compile_corner"
+                    android:paddingLeft="@dimen/dimen_15"
+                    android:paddingRight="@dimen/dimen_15"
+                    android:paddingBottom="@dimen/dimen_3"
+                    android:paddingTop="@dimen/dimen_3"
+                    android:layout_marginRight="@dimen/dimen_10"
+                    android:layout_marginEnd="@dimen/dimen_10"
+                    android:textSize="@dimen/channel_item_12"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+            <com.zhimu.news.view.DragItemGridView
+                android:id="@+id/userGridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:layout_marginRight="@dimen/dimen_10"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:gravity="center"
+                android:horizontalSpacing="@dimen/dimen_10"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:scrollbars="vertical"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="@dimen/dimen_10" />
+
+            <TextView
+                android:id="@+id/more_category_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:layout_marginStart="@dimen/dimen_10"
+                android:layout_marginTop="@dimen/dimen_20"
+                android:text="@string/channel_select"
+                android:textColor="@color/colorChannelTitle"
+                android:textSize="@dimen/channel_title_16" />
+
+            <com.zhimu.news.view.OtherGridView
+                android:id="@+id/otherGridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:layout_marginRight="@dimen/dimen_10"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:gravity="center"
+                android:horizontalSpacing="@dimen/dimen_10"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:scrollbars="vertical"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="@dimen/dimen_10" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
